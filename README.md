@@ -122,16 +122,6 @@ Rule-based lookup table predicting vessel survival time based on damage and envi
 
 ---
 
-## DIP Modules Coverage (22AIM61)
-
-| Module | Operations Used in Project |
-|--------|----------------|
-| **M1 — Fundamentals** | Pixel analysis, intensity histograms, image statistics |
-| **M2 — Spatial/Freq** | CLAHE, Gaussian blur, histogram equalisation |
-| **M3 — Restoration** | FastNLM denoising, noise reduction |
-| **M4 — Morphology** | Morphological close (`MORPH_CLOSE`), kernel structuring |
-| **M5 — Segmentation** | Canny edge detection, contour extraction, bounding box detection |
-
 ---
 
 *Built with: Python · OpenCV · YOLOv8 (Ultralytics) · Streamlit · PyTorch · NumPy · Pandas · Matplotlib*
